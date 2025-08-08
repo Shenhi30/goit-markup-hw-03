@@ -156,6 +156,20 @@ a {
 }
 
 /* benefits */
+.benefits {
+    padding: 120px 0;
+}
+
+/* .visually-hidden */
+
+.benefit-list {
+    display: flex;
+    gap: 24px;
+}
+
+.benefit-list-slot {
+    width: calc((100% - 72px) / 4);
+}
 
 .benefit-list-header {
     font-weight: 500;
