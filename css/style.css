@@ -230,13 +230,41 @@ a {
 
 
 /* our portfolio */
+
+.our-portfolio-sec {
+    padding: 120px 0 120px 0;
+}
+
 .our-portfolio-header {
+    margin-bottom: 72px;
+
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+
+.our-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.our-portfolio-list-slot {
+    width: calc((100% - 48px) / 3)
+}
+
+.our-portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.our-team-head{
+    margin-bottom: 8px;
 }
 
 /*! .benefit-list-header */
