@@ -168,7 +168,7 @@ a {
 }
 
 .benefit-list-slot {
-    flex-basis: calc((100%-72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .benefit-list-header {
@@ -223,7 +223,7 @@ a {
 }
 
 .our-team-list {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
