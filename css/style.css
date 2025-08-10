@@ -1,17 +1,3 @@
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
-
-img {
-    display: block;
-}
-
-ul {
-    list-style-type: none;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -35,6 +21,32 @@ ul {
 /* anchors */
 a {
     text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 /* header */
@@ -278,7 +290,7 @@ a {
 }
 
 
-.block-logo {
+.footer .block-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
