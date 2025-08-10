@@ -168,7 +168,7 @@ a {
 }
 
 .benefit-list-slot {
-    flex-basis: calc((100% - 72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .benefit-list-header {
@@ -223,7 +223,7 @@ a {
 }
 
 .our-team-list {
-    flex-basis: calc((100% - 72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
@@ -254,7 +254,7 @@ a {
 }
 
 .our-portfolio-list-slot {
-    width: calc((100% - 48px)/3);
+    width: calc((100% - 48px) / 3);
 }
 
 .our-portfolio-container {
@@ -277,10 +277,13 @@ a {
     background-color: #2e2f42;
 }
 
-.footer-logo {
+
+.block-logo {
     display: inline-block;
     margin-bottom: 16px;
+}
 
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
