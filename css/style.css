@@ -152,6 +152,9 @@ p {
 
 /* button */
 .hero-btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
     display: block;
     min-width: 169px;
     height: 56px;
