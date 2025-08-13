@@ -118,6 +118,7 @@ p {
 .adress-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav-address-link {
@@ -126,13 +127,11 @@ p {
     color: #434455;
 }
 
-.nav-address-link:hover {
-    color: #404bbf;
-}
-
+.nav-address-link:hover,
 .nav-address-link:focus {
     color: #404bbf;
 }
+
 
 /* hero */
 .hero-first {
